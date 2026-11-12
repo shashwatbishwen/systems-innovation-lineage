@@ -5,7 +5,7 @@
 > **Geographic Association:** Hungary / United States / International  
 > **Key Invention:** Stored-program computer architecture (EDVAC report), Game Theory, Cellular Automata
 
----
+***
 
 ## Core Systems Takeaway
 
@@ -13,7 +13,7 @@
 
 **World-Changing Impact:** Formalized the universal stored-program architecture that governs nearly all modern microprocessor and digital computer designs.
 
----
+***
 
 ## The Architectural Breakthrough
 
@@ -21,13 +21,38 @@ In 1945, John von Neumann drafted the First Draft of a Report on the EDVAC, esta
 
 The architecture established five classical functional units: the central arithmetic unit, the central control unit, internal memory, external storage, and input-output channels. While revolutionary, it created the classical von Neumann bottleneck: CPU processing speed is fundamentally constrained by memory bus transfer bandwidth.
 
----
+***
 
-## Modern Systems Relevance
+## Modern Systems Relevance & Practitioner Commentary
 
-The von Neumann bottleneck is replicated today at macroscopic scale in distributed cloud architectures: compute cores spend idle CPU cycles waiting on database I/O over network buses. Modern mitigations like L1/L2/L3 hardware caches, Redis read replicas, and in-memory columnar stores exist to bypass this exact bus constraint.
+*Architectural analysis by [Dr. Shashwat Bishwen](https://shashwat.si):*
 
----
+The von Neumann bottleneck: bus throughput limiting CPU instruction cycles, is now the dominant crisis of AI data centers (HBM bandwidth limits, memory-wall stalls, and bus contention). This constraint dictates the economics explored in [The AI Infrastructure Bubble](https://shashwat.si/articles/ai-infrastructure-bubble-why-your-2025-compute-systemic-bishwen-8isrc/), forensic reviews in [AI Infrastructure Margin Audits](https://shashwat.si/case-studies/an-ai-infrastructure-margin-audit/), and [Database Topology Risk Assessments](https://shashwat.si/due-diligence-reports/database-topology-scalability-risk-assessment/).
+
+***
+
+## Connected Engineering Work & Technical Backlinks
+
+This historical innovation provides the foundational lineage for several published technical investigations, production case studies, diagnostic tools, and diligence reports by Dr. Shashwat Bishwen:
+
+### In-Depth Technical Articles
+- [Google Didn\](https://shashwat.si/articles/google-didnt-break-physics-why-ai-exposes-clouds-silent-bishwen-c3vac/)
+- [The AI Infrastructure Bubble: Why Your 2025 Compute Build-Out Is a Systemic Liquidity Risk](https://shashwat.si/articles/ai-infrastructure-bubble-why-your-2025-compute-systemic-bishwen-8isrc/)
+- [The Architecture of Validation: How to Test the Unprecedented (Without Losing Your Mind or Your Capital)](https://shashwat.si/articles/architecture-validation-how-test-unprecedented-without-bishwen-ykrof/)
+
+### Production Case Studies
+- [Case Study: Zero-Downtime Database Topology Migration](https://shashwat.si/case-studies/zero-downtime-database-topology-migration/)
+- [Case Study: An AI Infrastructure Margin Audit](https://shashwat.si/case-studies/an-ai-infrastructure-margin-audit/)
+- [Case Study: The Cloud Bill Before Series B](https://shashwat.si/case-studies/the-cloud-bill-before-series-b/)
+
+### Executive Technical Due Diligence Reports
+- [Due Diligence Report: Database Topology & Scalability Risk](https://shashwat.si/due-diligence-reports/database-topology-scalability-risk-assessment/)
+- [Due Diligence Report: AI Infrastructure Margin & Compute Economics](https://shashwat.si/due-diligence-reports/ai-infrastructure-margin-and-compute-economics-review/)
+
+### Live Diagnostic Engine & Simulator
+- [TelemetryDrain: Observability Drag & Log Ingestion Auditor](https://shashwat.si/tools/telemetrydrain/)
+
+***
 
 ## Attribution & Historical Context
 
@@ -37,13 +62,6 @@ Von Neumann synthesized ideas developed collaboratively with ENIAC creators J. P
 - [https://en.wikipedia.org/wiki/John_von_Neumann](https://en.wikipedia.org/wiki/John_von_Neumann)
 - [https://www.wikidata.org/wiki/Q17455](https://www.wikidata.org/wiki/Q17455)
 
----
-
-## Related Advisory Pillars
-
-- **Enterprise Architecture**: Evaluated at [shashwat.si](https://shashwat.si)
-- **Platform Stabilization**: Evaluated at [shashwat.si](https://shashwat.si)
-
----
+***
 
 *Curated by [Dr. Shashwat Bishwen](https://shashwat.si) (Solution Assembler & Chief Systems Architect, TEDx). For executive advisory, technical due diligence, and platform triage, visit [shashwat.si](https://shashwat.si).*
